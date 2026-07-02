@@ -1,0 +1,320 @@
+s<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collège Scientifique Souissi — Rabat</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="container nav__inner">
+    <a href="#home" class="nav__brand">
+      <img src="img/logo.png" alt="Logo CSS" class="nav__logo" />
+      <div>
+        <div class="nav__brand-name">Collège Scientifique Souissi</div>
+        <div class="nav__brand-sub">Groupe Scolaire Abboud · Rabat</div>
+      </div>
+    </a>
+
+    <ul class="nav__links">
+      <li><a href="#home" class="active" data-i18n="nav.home">Accueil</a></li>
+      <li><a href="#stats" data-i18n="nav.stats">Chiffres</a></li>
+      <li><a href="#about" data-i18n="nav.about">À propos</a></li>
+      <li><a href="#register" data-i18n="nav.register">Inscription</a></li>
+    </ul>
+
+    <div class="nav__right">
+      <a href="https://e212076q.index-education.net/pronote/parent.html" target="_blank" rel="noopener" class="nav__pronote">PRONOTE</a>
+
+      <div class="lang-switcher" aria-label="Language">
+        <button class="lang-btn" type="button" data-lang="fr">FR</button>
+        <button class="lang-btn" type="button" data-lang="en">EN</button>
+        <button class="lang-btn" type="button" data-lang="ar">AR</button>
+      </div>
+
+      <button class="burger" id="burger"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#home" data-section="home" data-i18n="nav.home">Accueil</a>
+  <a href="#stats" data-section="stats" data-i18n="nav.stats">Chiffres</a>
+  <a href="#about" data-section="about" data-i18n="nav.about">À propos</a>
+  <a href="#register" data-section="register" data-i18n="nav.register">Inscription</a>
+
+  <div class="mobile-lang">
+    <button class="lang-btn" type="button" data-lang="fr">FR</button>
+    <button class="lang-btn" type="button" data-lang="en">EN</button>
+    <button class="lang-btn" type="button" data-lang="ar">AR</button>
+  </div>
+</div>
+
+<section id="home">
+  <div class="hero__bg">
+    <img src="img/hero.jpg" alt="" class="hero__bg-img" />
+    <div class="hero__bg-overlay"></div>
+    <div class="hero__bg-fallback"></div>
+  </div>
+
+  <div class="container">
+    <div class="hero__content">
+  
+      <img src="img/logo.png" alt="CSS Logo" class="hero__logo" />
+
+      <h1 class="hero__title" data-i18n="hero.title">Collège Scientifique <span>Souissi</span></h1>
+      <p class="hero__subtitle" data-i18n="hero.subtitle">Former des élèves curieux, rigoureux et ouverts sur le monde.</p>
+      <p class="hero__desc" data-i18n="hero.desc">Un établissement engagé dans l'excellence académique, la culture scientifique et l'accompagnement personnalisé de chaque élève.</p>
+
+      <div class="hero__ctas">
+        <a href="#about" class="btn btn--red btn--lg" data-i18n="hero.cta1">Découvrir l'établissement</a>
+        <a href="#register" class="btn btn--outline-white btn--lg" data-i18n="hero.cta2">Inscriptions 2025–2026</a>
+
+        <a href="https://e212076q.index-education.net/pronote/parent.html" target="_blank" rel="noopener" class="btn btn--orange btn--lg" data-i18n="hero.cta3">
+          <img src="img/pronote.webp" width="30" height="30" style="margin-right: 5px; margin-bottom: 3px;" alt="PRONOTE" /> PRONOTE
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero__scroll" aria-hidden="true">
+    <svg fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+    </svg>
+  </div>
+</section>
+
+<div class="stats-bar" id="stats">
+  <div class="container">
+    <div class="stats-bar__grid">
+      <div class="stats-bar__item">
+        <div class="stats-bar__num"><span data-count="60" data-suffix="+">60+</span></div>
+        <div class="stats-bar__label" data-i18n="stats.students">Élèves participants</div>
+      </div>
+      <div class="stats-bar__item">
+        <div class="stats-bar__num"><span data-count="40">40</span></div>
+        <div class="stats-bar__label" data-i18n="stats.projects">Projets scientifiques</div>
+      </div>
+      <div class="stats-bar__item">
+        <div class="stats-bar__num"><span data-count="6">6</span></div>
+        <div class="stats-bar__label" data-i18n="stats.disciplines">Disciplines représentées</div>
+      </div>
+      <div class="stats-bar__item">
+        <div class="stats-bar__num"><i class="fas fa-trophy" style="font-size:1.8rem;color:#E8461A"></i></div>
+        <div class="stats-bar__label" data-i18n="stats.wro">WRO Maroc 2026</div>
+        <div class="stats-bar__badge" data-i18n="activities.badge3rd">3ème place</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="about" class="section-wrap section-wrap--alt">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="label" data-i18n="about.sectionLabel">À propos</span>
+      <h2 class="heading" data-i18n="about.title">Le Collège Scientifique Souissi</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__body">
+        <p class="about__lead" data-i18n="about.lead">Le Collège Scientifique Souissi est un établissement engagé dans l'excellence académique et l'épanouissement de chaque élève.</p>
+        <p data-i18n="about.fullText">Grâce à une pédagogie moderne, un encadrement personnalisé et un environnement stimulant, nous accompagnons nos élèves vers la réussite tout en développant leur autonomie, leur esprit critique et leur confiance en eux.</p>
+      </div>
+
+      <div class="about__visual">
+        <div class="photo-zone about__photo-main rev">
+          <img src="img/school-exterior.jpg" alt="Façade" />
+          <div class="photo-zone__placeholder">
+            <i class="fas fa-building"></i>
+            <span data-i18n="about.photoLabel">Notre établissement</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="register" class="section-wrap">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="label" data-i18n="register.sectionLabel">Documents d'inscription</span>
+      <h2 class="heading" data-i18n="register.sectionTitle">Préparez les documents</h2>
+      <div class="divider"></div>
+      <p class="subheading" data-i18n="register.sectionSubheading">Préparez les documents suivants pour finaliser l'inscription de votre enfant.</p>
+    </div>
+
+    <div class="papers-grid">
+      <div class="paper-card rev">
+        <div class="paper-card__row">
+          <i class="fas fa-id-card paper-card__icon"></i>
+          <div><strong data-i18n="register.docs.doc1">Copie de la CIN du parent ou tuteur</strong></div>
+        </div>
+      </div>
+
+      <div class="paper-card rev">
+        <div class="paper-card__row">
+          <i class="fas fa-user paper-card__icon"></i>
+          <div><strong data-i18n="register.docs.doc2">Copie de l'acte de naissance de l'élève</strong></div>
+        </div>
+      </div>
+
+      <div class="paper-card rev">
+        <div class="paper-card__row">
+          <i class="fas fa-camera paper-card__icon"></i>
+          <div><strong data-i18n="register.docs.doc3">4 photos d'identité récentes</strong></div>
+        </div>
+      </div>
+
+      <div class="paper-card rev">
+        <div class="paper-card__row">
+          <i class="fas fa-book-open paper-card__icon"></i>
+          <div><strong data-i18n="register.docs.doc4">Certificat de scolarité (si changement d'établissement)</strong></div>
+        </div>
+      </div>
+
+      <div class="paper-card rev">
+        <div class="paper-card__row">
+          <i class="fas fa-file-lines paper-card__icon"></i>
+          <div><strong data-i18n="register.docs.doc5">Bulletins scolaires des années précédentes</strong></div>
+        </div>
+      </div>
+
+      <div class="paper-card rev">
+        <div class="paper-card__row">
+          <i class="fas fa-syringe paper-card__icon"></i>
+          <div><strong data-i18n="register.docs.doc6">Carnet de vaccination (si demandé)</strong></div>
+        </div>
+      </div>
+
+      <div class="paper-card rev">
+        <div class="paper-card__row">
+          <i class="fas fa-location-dot paper-card__icon"></i>
+          <div><strong data-i18n="register.docs.doc7">Justificatif de domicile</strong></div>
+        </div>
+      </div>
+
+      <div class="paper-card rev">
+        <div class="paper-card__row">
+          <i class="fas fa-pen-nib paper-card__icon"></i>
+          <div><strong data-i18n="register.docs.doc8">Formulaire d'inscription dûment rempli</strong></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section-wrap section-wrap--alt">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <h1 class="label" data-i18n="register.gallery.sectionLabel">Galerie</h1>
+      <h2 class="heading" data-i18n="register.gallery.sectionTitle">Photos</h2>
+      <div class="divider"></div>
+    </div>
+
+    <div class="gallery-grid" id="galleryGrid">
+      <!-- Edit pictures here -->
+      <button class="gallery-item" type="button" data-full="img/hero.jpg">
+        <img src="img/hero.jpg" alt="img" />
+      </button>
+      <button class="gallery-item" type="button" data-full="img/school-exterior.jpg">
+        <img src="img/school-exterior.jpg" alt="img" />
+      </button>
+      <button class="gallery-item" type="button" data-full="img/pic.jpg">
+        <img src="img/pic.jpg" alt="img" />
+      </button>
+      <button class="gallery-item" type="button" data-full="img/pics.jpg">
+        <img src="img/pics.jpg" alt="img" />
+      </button>
+    </div>
+
+    <div class="gallery-modal" id="galleryModal" aria-hidden="true">
+      <div class="gallery-modal__content">
+        <button class="gallery-modal__close" type="button" aria-label="Close">×</button>
+        <img class="gallery-modal__img" alt="" src="" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section-wrap section-wrap--alt">
+  <div class="container">
+    <div class="section-header section-header--center">
+      <span class="label">Contact</span>
+    </div>
+
+    <div class="contact-zone">
+      <div class="contact-zone__info">
+        <div class="contact-zone__title">Collège Scientifique Souissi</div>
+        <div class="contact-zone__row"><i class="fas fa-map-location-dot"></i> 12, Avenue Mohamed Ibn Hassan Elouazzani, Souissi, Rabat</div>
+        <div class="contact-zone__row"><i class="fas fa-phone"></i> +212 670-073273</div>
+        <div class="contact-zone__row"><i class="fas fa-envelope"></i> secretariat_css@gsabboud.com</div>
+        <div class="contact-zone__row"><i class="fas fa-building"></i> Établissement privé d'enseignement</div>
+      </div>
+
+      <div class="contact-zone__map" aria-label="Carte de la zone">
+        <iframe
+          title="Google Map - Collège Scientifique Souissi"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d413.6460549719961!2d-6.821278024610005!3d33.962509873296725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda76d452f507b41%3A0xc0d38c244b30fa7!2sEcole%20scientifique%20souissi!5e0!3m2!1sfr!2sma!4v1783003836646!5m2!1sfr!2sma"
+          width="600"
+          height="450"
+          style="border:0;width:100%;height:100%;min-height:280px"
+          loading="lazy"
+          allowfullscreen=""
+          referrerpolicy="strict-origin-when-cross-origin">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+  <i class="fas fa-arrow-up"></i>
+</button>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="/main.js"></script>
+<script>
+  // Simple gallery modal
+  (function () {
+    const grid = document.getElementById('galleryGrid');
+    const modal = document.getElementById('galleryModal');
+    const img = modal?.querySelector('.gallery-modal__img');
+    const closeBtn = modal?.querySelector('.gallery-modal__close');
+    if (!grid || !modal || !img) return;
+
+    function open(src) {
+      img.src = src;
+      modal.setAttribute('aria-hidden', 'false');
+      modal.classList.add('open');
+    }
+
+    function close() {
+      modal.setAttribute('aria-hidden', 'true');
+      modal.classList.remove('open');
+      img.src = '';
+    }
+
+    grid.querySelectorAll('.gallery-item').forEach(btn => {
+      btn.addEventListener('click', () => open(btn.dataset.full || btn.querySelector('img')?.src));
+    });
+
+    closeBtn?.addEventListener('click', close);
+    modal.addEventListener('click', (e) => {
+      if (e.target === modal) close();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && modal.classList.contains('open')) close();
+    });
+  })();
+</script>
+</body>
+</html>
+

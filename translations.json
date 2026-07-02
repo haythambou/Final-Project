@@ -1,0 +1,317 @@
+{
+  "fr": {
+    "nav": {
+      "home": "Accueil",
+      "stats": "Chiffres",
+      "about": "À propos",
+      "register": "Inscription"
+    },
+    "hero": {
+      "tagline": "Groupe Scolaire Abboud — Souissi, Rabat",
+      "title": "Collège Scientifique Souissi",
+      "subtitle": "Former des élèves curieux, rigoureux et ouverts sur le monde.",
+      "desc": "Un établissement engagé dans l'excellence académique, la culture scientifique et l'accompagnement personnalisé de chaque élève.",
+      "cta1": "Découvrir l'établissement",
+      "cta2": "Inscriptions 2025–2026",
+      "cta3": "PRONOTE"
+    },
+    "stats": {
+      "students": "Élèves participants",
+      "projects": "Projets scientifiques",
+      "disciplines": "Disciplines représentées",
+      "wro": "WRO Maroc 2024"
+    },
+    "activities": {
+      "badge3rd": "3ème place"
+    },
+    "about": {
+      "sectionLabel": "À propos",
+      "title": "Le Collège Scientifique Souissi",
+      "lead": "Le Collège Scientifique Souissi est un établissement engagé dans l'excellence académique et l'épanouissement de chaque élève.",
+      "fullText": "Grâce à une pédagogie moderne, un encadrement personnalisé et un environnement stimulant, nous accompagnons nos élèves vers la réussite tout en développant leur autonomie, leur esprit critique et leur confiance en eux.",
+      "photoLabel": "Notre établissement",
+      "languagesTitle": "Langues"
+    },
+    "lang": {
+      "fr": "Français",
+      "en": "English",
+      "ar": "العربية"
+    },
+    "register": {
+      "sectionLabel": "Inscription",
+      "title": "Parents : inscrivez votre enfant",
+      "subtitle": "Téléchargez la fiche, préparez votre dossier, puis suivez les étapes d’inscription.",
+      "step1": "Télécharger le PDF",
+      "step1Text": "Accédez au formulaire d’inscription et aux informations nécessaires.",
+      "step2": "Préparer le dossier",
+      "step2Text": "Pièces requises : selon votre niveau, nous vous guidons.",
+      "step3": "Rendez-vous",
+      "step3Text": "Venez avec votre dossier : évaluation et validation.",
+      "step4": "Inscription",
+      "step4Text": "Intégration de votre enfant et calendrier de suivi.",
+      "downloadTitle": "Documents pour les parents",
+      "downloadText": "Téléchargez les “papers” nécessaires pour l’inscription.",
+      "downloadBtn": "Télécharger PDF",
+      "downloadNote": "Si vous avez besoin d’aide, contactez l’établissement via l'e-mail ou Whatsapp.",
+
+      "doc1Title": "Fiche parents (PDF)",
+      "doc1Text": "À remettre au rendez-vous + étapes à suivre.",
+      "doc1Btn": "Télécharger",
+
+      "doc2Title": "Dossier inscription (PDF)",
+      "doc2Text": "Document d’inscription à préparer avant le rendez-vous.",
+      "doc2Btn": "Télécharger",
+
+      "doc3Title": "Pièces à fournir (Liste)",
+      "doc3Text": "Consultez la liste des documents demandés.",
+      "doc3Btn": "Voir",
+
+      "sectionHeader": "Documents d'inscription",
+      "sectionTitle": "Préparez les documents",
+      "sectionSubheading": "Préparez les documents suivants pour finaliser l'inscription de votre enfant.",
+
+      "docs": {
+        "doc1": "Copie de la CIN du parent ou tuteur",
+        "doc2": "Copie de l'acte de naissance de l'élève",
+        "doc3": "4 photos d'identité récentes",
+        "doc4": "Certificat de scolarité (si changement d'établissement)",
+        "doc5": "Bulletins scolaires des années précédentes",
+        "doc6": "Carnet de vaccination (si demandé)",
+        "doc7": "Justificatif de domicile",
+        "doc8": "Formulaire d'inscription dûment rempli"
+      }
+    },
+
+    "contact": {
+      "sectionLabel": "Contact",
+      "title": "Collège Scientifique Souissi",
+      "address": "12, Avenue Mohamed Ibn Hassan Elouazzani, Souissi, Rabat",
+      "phone": "+212 670-073273",
+      "email": "secretariat_css@gsabboud.com",
+      "type": "Établissement privé d'enseignement",
+      "mapAriaLabel": "Carte de la zone",
+      "mapTitle": "Google Map - Collège Scientifique Souissi"
+    },
+
+    "global": {
+      "backToTopAriaLabel": "Retour en haut"
+    },
+
+    "gallery": {
+      "sectionLabel": "Galerie",
+      "title": "Photos",
+      "cta": "Voir tout"
+    }
+  },
+
+  "en": {
+    "nav": {
+      "home": "Home",
+      "stats": "Highlights",
+      "about": "About",
+      "register": "Registration"
+    },
+    "hero": {
+      "tagline": "Abboud School Group — Souissi, Rabat",
+      "title": "Scientific College Souissi",
+      "subtitle": "Train curious, rigorous students open to the world.",
+      "desc": "A school committed to academic excellence, scientific culture, and tailored support for every student.",
+      "cta1": "Discover our school",
+      "cta2": "Enrollments 2025–2026",
+      "cta3": "PRONOTE"
+    },
+    "stats": {
+      "students": "Participating students",
+      "projects": "Science projects",
+      "disciplines": "Disciplines represented",
+      "wro": "WRO Morocco 2024"
+    },
+    "activities": {
+      "badge3rd": "3rd place"
+    },
+    "about": {
+      "sectionLabel": "About us",
+      "title": "Collège Scientifique Souissi",
+      "lead": "Collège Scientifique Souissi is committed to academic excellence and the well-being of every student.",
+      "fullText": "Through modern teaching, personalized guidance, and a stimulating environment, we help our students achieve success while developing autonomy, critical thinking, and self-confidence.",
+      "photoLabel": "Our school",
+      "languagesTitle": "Languages"
+    },
+    "lang": {
+      "fr": "French",
+      "en": "English",
+      "ar": "Arabic"
+    },
+    "register": {
+      "sectionLabel": "Registration",
+      "title": "Parents: enroll your child",
+      "subtitle": "Download the form, prepare your file, then follow the enrollment steps.",
+      "step1": "Download the PDF",
+      "step1Text": "Access the enrollment form and the information required.",
+      "step2": "Prepare the file",
+      "step2Text": "Required documents: depending on your level, we guide you.",
+      "step3": "Appointment",
+      "step3Text": "Bring your file for assessment and validation.",
+      "step4": "Enrollment",
+      "step4Text": "Your child is enrolled and you receive the follow-up calendar.",
+      "downloadTitle": "Documents for parents",
+      "downloadText": "Download the “papers” needed for enrollment.",
+      "downloadBtn": "Download PDF",
+      "downloadNote": "If you need help, contact the school via email or WhatsApp.",
+
+      "doc1Title": "Parents form (PDF)",
+      "doc1Text": "Bring to your appointment + follow-up steps.",
+      "doc1Btn": "Download",
+
+      "doc2Title": "Enrollment file (PDF)",
+      "doc2Text": "Enrollment document to prepare before the appointment.",
+      "doc2Btn": "Download",
+
+      "doc3Title": "Documents checklist (List)",
+      "doc3Text": "Consult the list of requested documents.",
+      "doc3Btn": "View",
+
+      "sectionHeader": "Enrollment documents",
+      "sectionTitle": "Prepare the documents",
+      "sectionSubheading": "Prepare the following documents to finalize your child's enrollment.",
+
+      "docs": {
+        "doc1": "Copy of the parent's or guardian's ID (CIN)",
+        "doc2": "Copy of the student's birth certificate",
+        "doc3": "4 recent identity photos",
+        "doc4": "School attendance certificate (if changing schools)",
+        "doc5": "Report cards from previous years",
+        "doc6": "Vaccination record (if requested)",
+        "doc7": "Proof of address",
+        "doc8": "Completed enrollment form"
+      }
+    },
+
+    "contact": {
+      "sectionLabel": "Contact",
+      "title": "Scientific College Souissi",
+      "address": "12, Avenue Mohamed Ibn Hassan Elouazzani, Souissi, Rabat",
+      "phone": "+212 670-073273",
+      "email": "secretariat_css@gsabboud.com",
+      "type": "Private educational institution",
+      "mapAriaLabel": "Area map",
+      "mapTitle": "Google Map - Scientific College Souissi"
+    },
+
+    "global": {
+      "backToTopAriaLabel": "Back to top"
+    },
+
+    "gallery": {
+      "sectionLabel": "Gallery",
+      "title": "Photos",
+      "cta": "View all"
+    }
+  },
+
+  "ar": {
+    "nav": {
+      "home": "الرئيسية",
+      "stats": "الأرقام",
+      "about": "نبذة عنا",
+      "register": "التسجيل"
+    },
+    "hero": {
+      "tagline": "مجموعة عبّود التعليمية — السويّسي، الرباط",
+      "title": "الكلية العلمية السويّسي",
+      "subtitle": "تكوين تلاميذ فضوليين ومنضبطين منفتحين على العالم.",
+      "desc": "مؤسسة ملتزمة بالتميز الأكاديمي والثقافة العلمية والدعم المخصص لكل تلميذ.",
+      "cta1": "اكتشف مؤسستنا",
+      "cta2": "التسجيل 2025–2026",
+      "cta3": "PRONOTE"
+    },
+    "stats": {
+      "students": "تلاميذ مشاركون",
+      "projects": "مشاريع علمية",
+      "disciplines": "مجالات متنوعة",
+      "wro": "WRO المغرب 2024"
+    },
+    "activities": {
+      "badge3rd": "المرتبة الثالثة"
+    },
+    "about": {
+      "sectionLabel": "نبذة عنا",
+      "title": "الكلية العلمية السويّسي",
+      "lead": "تلتزم الكلية العلمية السويّسي بالتميز الأكاديمي وبالتمتع/الارتياح لكل تلميذ.",
+      "fullText": "من خلال بيداغوجيا حديثة وتوجيه فردي وبيئة محفّزة، نرافق تلامذتنا نحو النجاح مع تنمية الاستقلالية والتفكير النقدي والثقة بالنفس.",
+      "photoLabel": "مؤسستنا",
+      "languagesTitle": "اللغات"
+    },
+    "lang": {
+      "fr": "الفرنسية",
+      "en": "الإنجليزية",
+      "ar": "العربية"
+    },
+    "register": {
+      "sectionLabel": "التسجيل",
+      "title": "الآباء: سجّلوا ابنكم",
+      "subtitle": "حمّلوا الاستمارة، حضّروا ملفكم، ثم اتبعوا خطوات التسجيل.",
+      "step1": "تحميل ملف PDF",
+      "step1Text": "الوصول إلى استمارة التسجيل والمعلومات المطلوبة.",
+      "step2": "تحضير الملف",
+      "step2Text": "الوثائق المطلوبة: حسب مستواكم سنرشدكم.",
+      "step3": "موعد",
+      "step3Text": "احضروا ملفكم للتقييم والتحقق.",
+      "step4": "التسجيل",
+      "step4Text": "يتم تسجيل ابنكم مع جدول المتابعة.",
+      "downloadTitle": "وثائق للآباء",
+      "downloadText": "حمّلوا “الوثائق” اللازمة للتسجيل.",
+      "downloadBtn": "تحميل PDF",
+      "downloadNote": "إذا احتجتم للمساعدة، تواصلوا مع المؤسسة عبر البريد الإلكتروني أو واتساب.",
+
+      "doc1Title": "استمارة الآباء (PDF)",
+      "doc1Text": "تُسلَّم في الموعد + خطوات المتابعة.",
+      "doc1Btn": "تحميل",
+
+      "doc2Title": "ملف التسجيل (PDF)",
+      "doc2Text": "وثيقة التسجيل لإعدادها قبل الموعد.",
+      "doc2Btn": "تحميل",
+
+      "doc3Title": "قائمة الوثائق المطلوبة",
+      "doc3Text": "اطلعوا على قائمة الوثائق المطلوبة.",
+      "doc3Btn": "عرض",
+
+      "sectionHeader": "وثائق التسجيل",
+      "sectionTitle": "حضّروا الوثائق",
+      "sectionSubheading": "حضّروا الوثائق التالية لإتمام تسجيل ابنكم.",
+
+      "docs": {
+        "doc1": "نسخة من بطاقة التعريف الوطنية (CIN) للأب/الولي",
+        "doc2": "نسخة من رسم ولادة التلميذ",
+        "doc3": "4 صور حديثة للهوية",
+        "doc4": "شهادة الدراسة (في حال تغيير المؤسسة)",
+        "doc5": "الكشوفات/النقط المدرسية للسنوات السابقة",
+        "doc6": "دفتر/بطاقة التلقيح (عند الطلب)",
+        "doc7": "إثبات السكنى",
+        "doc8": "استمارة التسجيل مملوءة بشكل صحيح"
+      }
+    },
+
+    "contact": {
+      "sectionLabel": "تواصل معنا",
+      "title": "الكلية العلمية السويّسي",
+      "address": "12، زنقة محمد ابن الحسن الوزّاني، السويّسي، الرباط",
+      "phone": "+212 670-073273",
+      "email": "secretariat_css@gsabboud.com",
+      "type": "مؤسسة تعليمية خاصة",
+      "mapAriaLabel": "خريطة المنطقة",
+      "mapTitle": "خريطة Google - الكلية العلمية السويّسي"
+    },
+
+    "global": {
+      "backToTopAriaLabel": "العودة للأعلى"
+    },
+
+    "gallery": {
+      "sectionLabel": "المعرض",
+      "title": "الصور",
+      "cta": "عرض الكل"
+    }
+  }
+}
+
